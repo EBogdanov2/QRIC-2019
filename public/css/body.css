@@ -1,0 +1,76 @@
+.jumbotron {
+  font-family: 'Gruppo';
+
+  opacity: 0.5;
+  color: #fff;
+  background: #000
+  width:850px;
+  height: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding: 15px;
+
+}
+
+.jumbotron .container {
+  color: #27292d;
+}
+.jumbotron .img {
+    margin-bottom: 0px;
+    opacity: 0.2;
+    color: #fff;
+    background: #000 url("https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") top center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.jumbotron h1 {margin-top:0;}
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+.btn-custom {
+  background-color: hsl(64, 85%, 88%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6fac6", endColorstr="#f6fac6");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#f6fac6), to(#f6fac6));
+  background-image: -moz-linear-gradient(top, #f6fac6, #f6fac6);
+  background-image: -ms-linear-gradient(top, #f6fac6, #f6fac6);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6fac6), color-stop(100%, #f6fac6));
+  background-image: -webkit-linear-gradient(top, #f6fac6, #f6fac6);
+  background-image: -o-linear-gradient(top, #f6fac6, #f6fac6);
+  background-image: linear-gradient(#f6fac6, #f6fac6);
+  border-color: #f6fac6 #f6fac6 hsl(64, 85%, 88%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar-custom {
+  background-color: #74a2ed;
+  font-family: 'Gruppo';
+}
+
+.parallax {
+  background: url('https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 0;
+  margin: 0;
+}
