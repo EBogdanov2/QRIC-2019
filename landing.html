@@ -8,38 +8,65 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
 
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
+
   <title>QRIC 2019</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#scroll-spy">
   <nav class="navbar navbar-custom navbar-expand-lg navbar-light justify-content-between sticky-top">
     <a class="navbar-brand" href="#">
-      <img src="" width="45" height="30" alt="">
+      <img src="imgs/QRIClogo.jpg" width="55" height="35" alt="">
     </a>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link" data-scroll href="#main">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" data-scroll href="#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-scroll href="#gallery">Gallery</a>
         </li>
       </ul>
     </div>
+    <a href='https://www.facebook.com/QRIC2018/' style="color: black"><i class='social-icon' data-feather='facebook'></i></a>
     <button type="button" class="btn btn-custom">Contact Us</button>
   </nav>
 
-  <div class='jumbotron'>
-    <div class='img'></div>
-    <div class='container'>
-      <h1 class="display-4">QRIC</h1>
-      <p class="lead">Check back soon for more updates, and contact us if you want to know more</p>
 
-      <hr class="my-4">
+  <div class='jumbotron jumbotron-fluid' id='main'>
+    <h1 class="display-4">Queen's Real Estate Investment Conference</h1>
+    <p class="lead">Check back soon for more updates, and contact us if you want to know more</p>
 
-      <p>test for font size and look</p>
-    </div>
+    <br></br>
+
+    <p style="font-size:20px">January 2019</p>
   </div>
+
+  <div class='jumbotron jumbotron-fluid' id='sponsors'>
+    <h1>Sponsors</h1>
+  </div>
+
+  <div class='parallax'></div>
+
+  <div class='jumbotron jumbotron-fluid' id='about'>
+    <h1>About Us</h1>
+  </div>
+
+  <script>
+    feather.replace()
+  </script>
+
+  <script>
+	 var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -1,69 +1,42 @@
-.jumbotron {
+#main {
   font-family: 'Gruppo';
+  margin-bottom: 0;
+  color: white;
+  background-color: white;
+  text-align: center;
 
-  opacity: 0.5;
-  color: #fff;
-  background: #000
-  width:850px;
-  height: 100%;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 15px;
+  height: 750px;
 
-}
-
-.jumbotron .container {
-  color: #27292d;
-}
-.jumbotron .img {
-    margin-bottom: 0px;
-    opacity: 0.2;
-    color: #fff;
-    background: #000 url("https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") top center no-repeat;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
-}
-.jumbotron h1 {margin-top:0;}
-.jumbotron {
-  position:relative;
-  padding-top:50px;
-  padding-bottom:50px;
-}
-.jumbotron .container {
-  position:relative;
-  z-index:2;
+  background-image: url("https://images.unsplash.com/photo-1446062061624-594b6e3403d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f0bcede3f4c3dd4aef0f41bc5c705c1&auto=format&fit=crop&w=1504&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .btn-custom {
-  background-color: hsl(64, 85%, 88%) !important;
+  background-color: hsl(0, 0%, 10%) !important;
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f6fac6", endColorstr="#f6fac6");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#f6fac6), to(#f6fac6));
-  background-image: -moz-linear-gradient(top, #f6fac6, #f6fac6);
-  background-image: -ms-linear-gradient(top, #f6fac6, #f6fac6);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6fac6), color-stop(100%, #f6fac6));
-  background-image: -webkit-linear-gradient(top, #f6fac6, #f6fac6);
-  background-image: -o-linear-gradient(top, #f6fac6, #f6fac6);
-  background-image: linear-gradient(#f6fac6, #f6fac6);
-  border-color: #f6fac6 #f6fac6 hsl(64, 85%, 88%);
-  color: #333 !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.00);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191919", endColorstr="#191919");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#191919), to(#191919));
+  background-image: -moz-linear-gradient(top, #191919, #191919);
+  background-image: -ms-linear-gradient(top, #191919, #191919);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #191919), color-stop(100%, #191919));
+  background-image: -webkit-linear-gradient(top, #191919, #191919);
+  background-image: -o-linear-gradient(top, #191919, #191919);
+  background-image: linear-gradient(#191919, #191919);
+  border-color: #191919 #191919 hsl(0, 0%, 10%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
   -webkit-font-smoothing: antialiased;
 }
 
 .navbar-custom {
-  background-color: #74a2ed;
+  background-color: white;
   font-family: 'Gruppo';
 }
 
 .parallax {
-  background: url('https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: url('https://i.pinimg.com/originals/33/2b/ad/332bad5cbb8e1b4f0b622d2453a4d645.jpg');
   min-height: 500px;
 
   background-attachment: fixed;
@@ -73,4 +46,31 @@
 
   padding: 0;
   margin: 0;
+}
+
+.social-icon {
+  margin-top: 6px;
+  margin-right: 20px;
+  height: 40px;
+  width: 30px;
+}
+
+#sponsors {
+  font-family: 'Gruppo';
+  margin-bottom:0;
+  color: #27292d;
+  background-color: white;
+  text-align: center;
+}
+
+#about {
+  font-family: 'Gruppo';
+  margin-bottom:0;
+  color: #27292d;
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  position: relative;
 }
